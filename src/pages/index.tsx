@@ -102,12 +102,12 @@ export default function App() {
       <header className="flex text-[22px] justify-between align-middle px-[5rem]">
         <p className="text-[16px] md:text-[22px]">NZ</p>
 
-        <ul className="hidden md:flex list-none gap-[50px] hover:underline active:opacity-50">
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul className="hidden md:flex list-none gap-[50px] active:opacity-50">
+          <li className="hover:underline"><a href="#about">About</a></li>
+          <li className="hover:underline"><a href="#skills">Skills</a></li>
+          <li className="hover:underline"><a href="#projects">Projects</a></li>
+          <li className="hover:underline"><a href="#experience">Experience</a></li>
+          <li className="hover:underline"><a href="#contact">Contact</a></li>
         </ul>
 
         <p className="text-[16px] underline md:hidden">

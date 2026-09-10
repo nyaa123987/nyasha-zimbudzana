@@ -4,11 +4,11 @@ type Heading1Props = {
   onClick?: () => void;
 };
 
-export default function Button({ children, onClick }: Heading1Props) {
+export default function Button({ children, className = "", onClick }: Heading1Props) {
   return (
     <h1
       onClick={onClick}
-       className="text-3xl md:text-5xl font-bold mb-4"
+      className={` text-[32px] md:text-[50px] font-light text-center ${className}`}
     >
       {children}
     </h1>

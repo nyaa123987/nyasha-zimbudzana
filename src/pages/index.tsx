@@ -28,12 +28,12 @@ import {
 
 import { HiOutlineMail } from 'react-icons/hi';
 
-import H1 from './components/h1';
-import H2 from './components/h2';
-import H3 from './components/h3';
-import H4 from './components/h4';
-import H6 from './components/h6';
-import ExperienceEducationSection from "./components/ExperienceEducationSection";
+import H1 from '../components/h1';
+import H2 from '../components/h2';
+import H3 from '../components/h3';
+import H4 from '../components/h4';
+import H6 from '../components/h6';
+import ExperienceEducationSection from "../components/ExperienceEducationSection";
 
 export default function App() {
   useEffect(() => {

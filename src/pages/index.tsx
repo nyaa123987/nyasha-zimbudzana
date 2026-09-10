@@ -125,7 +125,7 @@ export default function App() {
         data-aos="zoom-in"
       >
         <H1>
-          Hi, I'm <span className="name">Nyasha Zimbudzana</span>
+          Hi, I&apos;m <span className="name">Nyasha Zimbudzana</span>
         </H1>
         <H1>A Junior Full Stack Developer</H1>
 
@@ -235,7 +235,7 @@ export default function App() {
             I am a Web Developer and Uncommon.org graduate with hands-on experience
             in building modern, responsive websites using ReactJS.
             <br /><br />
-            Programming is my passion, that's why I've been coding and building
+            Programming is my passion, that&apos;s why I&apos;ve been coding and building
             projects during my academic journey.
             <br /><br />
             I am ready to collaborate, learn and build impactful web solutions.

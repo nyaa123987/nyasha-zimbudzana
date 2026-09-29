@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import 'aos/dist/aos.css';
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 :root {
   --background: #11072e;
@@ -61,7 +61,7 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
+#hero {
     height: 90vh;
     width: 100%;
     display: flex;

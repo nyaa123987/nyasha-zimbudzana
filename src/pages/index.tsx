@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import AOS from "aos";
-/*import "aos/dist/aos.css"; */
 import { CheckCircle } from "lucide-react";
+import Link from "next/link";
 
 import {
   SiVercel,
@@ -351,17 +351,44 @@ export default function App() {
 
           <div className="md:w-[50%]">
             <h2 className="contact-h2 text-[22px] md:text-[28px] mb-[15px] md:mb-[25px] font-light text-start">Ever After - Wedding Planner App</h2>
-            <p className="text-[16px] md:text-[18px]">A Next.js + Supabase wedding planner app that guides users through the process of planning a wedding.</p>
+            <p className="text-[16px] md:text-[18px]">A wedding planning platform designed to help couples manage guests, tasks, wedding details and other planning information in one place. </p>
             <div className="flex gap-8" style={{ paddingTop: "15px" }}>
               <a href="https://github.com/nyaa123987/wedding-planner" target="_blank" rel="noopener noreferrer" className="contact-h2 text-[12px] md:text-[13px] font-extralight rounded-3xl hover:cursor-pointer active:opacity-50 flex justify-center gap-2 align-middle items-center" style={{ background: "rgb(233, 233, 115, 0.15)", padding: "8px" }}>
-                <span><FaGithub /></span>
-                View Code
+                
+                Next.js
               </a>
               <a href="https://wedding-planner-omega-flame.vercel.app/" target="_blank" rel="noopener noreferrer" className="contact-h2 text-[12px] md:text-[13px] font-extralight rounded-3xl hover:cursor-pointer active:opacity-50 flex justify-center gap-2 align-middle items-center" style={{ background: "rgb(233, 233, 115, 0.15)", padding: "8px" }}>
-                <span><SiVercel /></span>
-                Live Demo
+                
+                Typescript
               </a>
             </div>
+
+
+
+
+
+
+            <div className="flex gap-4" style={{ paddingTop: "15px" }}>
+              <Link href="/projects/wedding-planner" className="contact-h2 text-[12px] md:text-[13px] font-extralight hover:cursor-pointer active:opacity-50 flex justify-center gap-2 align-middle items-center" style={{ padding: "8px" }}>
+                [View Case Study]
+              </Link>
+
+              <a href="https://github.com/nyaa123987/ever-after" target="_blank" rel="noopener noreferrer" className="contact-h2 text-[12px] md:text-[13px] font-extralight hover:cursor-pointer active:opacity-50 flex justify-center gap-2 align-middle items-center" style={{ padding: "8px" }}>
+                
+                [View Code]
+              </a>
+              <a href="https://ever-after-zeta.vercel.app/" target="_blank" rel="noopener noreferrer" className="contact-h2 text-[12px] md:text-[13px] font-extralight hover:cursor-pointer active:opacity-50 flex justify-center gap-2 align-middle items-center" style={{ padding: "8px" }}>
+                
+                [Live Demo]
+              </a>
+            </div>
+
+
+
+
+
+
+
           </div>
         </div>
 

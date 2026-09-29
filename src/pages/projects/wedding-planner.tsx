@@ -225,7 +225,7 @@ export default function EverAfterCaseStudy() {
         >
 
           <Image
-            src="/images/everafter.png"
+            src="/images/dashboard.png"
             alt="Ever After dashboard"
             fill
             className="object-cover"
@@ -435,22 +435,22 @@ export default function EverAfterCaseStudy() {
         <div
           className="
             relative
-            w-full
             rounded-2xl
             overflow-hidden
-            border
-            border-white/10
+            w-full
+            items-center
+            justify-center
+            flex
           "
-          style={{ marginTop: "2rem", aspectRatio: "16/10" }}
+          style={{ marginTop: "2rem" }}
         >
 
           <Image
             src="/images/responsive-all.png"
             alt="Ever After responsive design"
-            width={1600}
-            height={10}
-            className="w-full h-auto"
-            style={{ objectFit: "cover", objectPosition: "center" }}
+            width={1300}
+            height={600}
+            className="w-[50%] h-[40%]"
           />
         </div>
       </section>
@@ -486,7 +486,7 @@ export default function EverAfterCaseStudy() {
               "
             >
               <Image
-                src="/images/ever-after/guests.png"
+                src="/images/guests.png"
                 alt="Ever After guest management"
                 fill
                 className="object-cover"
@@ -512,7 +512,7 @@ export default function EverAfterCaseStudy() {
               "
             >
               <Image
-                src="/images/ever-after/tasks.png"
+                src="/images/schedule.png"
                 alt="Ever After task management"
                 fill
                 className="object-cover"
@@ -523,7 +523,7 @@ export default function EverAfterCaseStudy() {
             </h3>
           </div>
 
-          {/* Notes */}
+          {/* Messages */}
           <div className="md:col-span-2">
             <div
               className="
@@ -536,14 +536,14 @@ export default function EverAfterCaseStudy() {
               "
             >
               <Image
-                src="/images/ever-after/notes.png"
-                alt="Ever After notes"
+                src="/images/messages.png"
+                alt="Ever After messages"
                 fill
                 className="object-cover"
               />
             </div>
             <h3 className="text-xl mt-4">
-              Notes
+              Messages
             </h3>
           </div>
         </div>
